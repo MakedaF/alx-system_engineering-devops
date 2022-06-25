@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -d -la
+ls -la 0-current_working_directory
