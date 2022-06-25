@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -p alx-system_engineering-devops/tem/my_first_directory
+mkdir -p alx-system_engineering-devops/tmp/my_first_directory
