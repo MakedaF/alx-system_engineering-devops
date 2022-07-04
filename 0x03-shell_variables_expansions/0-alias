@@ -1,2 +1,2 @@
 #!/bin/bash
-alias If='ls -F'
+alias lf='ls -F'
