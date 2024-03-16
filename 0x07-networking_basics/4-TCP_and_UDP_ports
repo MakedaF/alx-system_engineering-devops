@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
+#command used to display listening ports
 netstat -pltu
