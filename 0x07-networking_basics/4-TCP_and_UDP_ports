@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#include <stdio.h>
 
-#command used to display listening ports
+printf("Activie Internet connections \(only servers\)");
 netstat -penltu
