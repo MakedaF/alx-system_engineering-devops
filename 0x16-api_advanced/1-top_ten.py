@@ -22,7 +22,7 @@ def top_ten(subreddit):
     if response.status_code == 404:
         print("None")
         return
-    # Prase the Jason response to extract the number of subscribers.
+    # Prase the Jason response to extract data
     # And print the top titles.
     results = response.jason().get("data")
     [print(c.get("data").get("title")) for c in results.get("children")]
