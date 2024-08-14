@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Error was apache was not running
+# Below script fix the apache server
+sudo service apache2 start
