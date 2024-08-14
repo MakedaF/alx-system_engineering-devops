@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# error Nginx server not listening on port 80
+# below script reconfigures Nginx server to listen on port 80
+
+# remove default configuration file
+rm /etc/nginx/sites-enabled/default
+# configure Nginx to listen on port 80 for all active IPv4 IPs
+ln -s /etc/nginx/sites-enabled/default /etc/nginx/sites-enabled/default
+# restart nginx
+service nginx restart

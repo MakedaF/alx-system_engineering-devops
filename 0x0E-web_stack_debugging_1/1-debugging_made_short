@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# reconfigure Nginx server to listen on port 80
+
+# Create symbolic link 
+ln -sf /etc/nginx/sites-enabled/default /etc/nginx/sites-enabled/default
+# restart nginx
+service nginx start
+# terminate the first nginx process ID
+kill "$(pgrep 'nginx' | head -1)"
